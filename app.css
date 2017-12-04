@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    background: url('https://lh3.google.com/u/0/d/1q0QznN0Xj2mK7cbtYqlr_FIV12KWNrPU=w1578-h911-iv1');
+    background-size: cover;
+    color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  color: black;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+}  
